@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FragmentsNavi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Second Fragment</string>
+    <string name="string_third_fragment">Third fragment</string>
+    <string name="second_fragment_string">Second Fragment</string>
+    <string name="fourth_fragment_string">Fourth Fragment</string>
+    <string name="first_fragment_string">First Fragment</string>
+    <string name="btn_1">1</string>
+    <string name="btn_2">2</string>
+    <string name="btn_3">3</string>
+    <string name="btn_4">4</string>
+</resources>
