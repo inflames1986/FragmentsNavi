@@ -18,7 +18,9 @@ public class MainActivity extends AppCompatActivity {
 
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.container, new FirstFragment(), "FirstFragment")
+//                        .replace(R.id.container, new FirstFragment(), "FirstFragment")
+                        .add(R.id.container, new FirstFragment(), "FirstFragment")
+//                        .addToBackStack(null)
                         .commit();
             }
         });
@@ -29,7 +31,9 @@ public class MainActivity extends AppCompatActivity {
 
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.container, new SecondFragment(), "SecondFragment")
+//                        .replace(R.id.container, new SecondFragment(), "SecondFragment")
+                        .add(R.id.container, new SecondFragment(), "SecondFragment")
+//                        .addToBackStack(null)
                         .commit();
             }
         });
@@ -40,7 +44,9 @@ public class MainActivity extends AppCompatActivity {
 
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.container, new ThirdFragment(), "ThirdFragment")
+//                        .replace(R.id.container, new ThirdFragment(), "ThirdFragment")
+                        .add(R.id.container, new ThirdFragment(), "ThirdFragment")
+//                        .addToBackStack(null)
                         .commit();
             }
         });
@@ -51,7 +57,8 @@ public class MainActivity extends AppCompatActivity {
 
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.container, new FourthFragment(), "FourthFragment")
+//                        .replace(R.id.container, new FourthFragment(), "FourthFragment")
+                        .add(R.id.container, new FourthFragment(), "FourthFragment")
                         .commit();
             }
         });
